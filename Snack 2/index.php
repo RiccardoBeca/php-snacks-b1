@@ -58,10 +58,11 @@ if($isAuthorised){
 </head>
 <body>
   <h1>MAIL CONTROL</h1>
+  
   <h2><?php echo $output ?></h2>
 
   <?php if(!$isAuth): ?>
-    <i>Errore: <?php echo $error ?></i>
+    <i>Errore: <?php echo $errore ?></i>
   <?php endif; ?>
 
 </body>
